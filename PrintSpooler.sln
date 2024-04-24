@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetNumberOfPrintJobs", "GetNumberOfPrintJobs\GetNumberOfPrintJobs.csproj", "{4BC50DA4-57A7-430A-BF63-060FDEA62BE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CheckPrinterConfiguration", "CheckPrinterConfiguration", "{5F056608-4442-4771-A954-8FAC751902C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPrinterConfiguration", "CheckPrinterConfiguration\CheckPrinterConfiguration.csproj", "{414A4BE0-3A32-401A-9812-A5A2AD42E55B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetNumberOfPrintJobs", "GetNumberOfPrintJobs", "{DE2A718C-C6D4-4128-B4EC-955F3BB12A98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrintIntercept", "PrintIntercept", "{EA4C2E20-B0F7-4E66-BA63-92084B4646F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{E74E84D7-62F8-401D-8CEE-5AFAF42C3771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MonitorPrinterQueue", "MonitorPrinterQueue", "{8DC41C9B-ABB1-45BF-969F-46EC07C9483D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintQueueMonitor", "MonitorPrinterQueue\PrintQueueMonitor\PrintQueueMonitor.csproj", "{237ED354-C209-41FC-AB28-037B68DC7A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSpooler", "MonitorPrinterQueue\PrintSpooler\PrintSpooler.csproj", "{C34A2563-8175-40F4-AC82-507FE3798EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeSocketTest", "NodeSocketTest\NodeSocketTest.csproj", "{25BF3A40-46BD-4F26-94BB-FF1940C788EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC50DA4-57A7-430A-BF63-060FDEA62BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC50DA4-57A7-430A-BF63-060FDEA62BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC50DA4-57A7-430A-BF63-060FDEA62BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC50DA4-57A7-430A-BF63-060FDEA62BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414A4BE0-3A32-401A-9812-A5A2AD42E55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414A4BE0-3A32-401A-9812-A5A2AD42E55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414A4BE0-3A32-401A-9812-A5A2AD42E55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414A4BE0-3A32-401A-9812-A5A2AD42E55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74E84D7-62F8-401D-8CEE-5AFAF42C3771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74E84D7-62F8-401D-8CEE-5AFAF42C3771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74E84D7-62F8-401D-8CEE-5AFAF42C3771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74E84D7-62F8-401D-8CEE-5AFAF42C3771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237ED354-C209-41FC-AB28-037B68DC7A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237ED354-C209-41FC-AB28-037B68DC7A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237ED354-C209-41FC-AB28-037B68DC7A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237ED354-C209-41FC-AB28-037B68DC7A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34A2563-8175-40F4-AC82-507FE3798EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34A2563-8175-40F4-AC82-507FE3798EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34A2563-8175-40F4-AC82-507FE3798EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34A2563-8175-40F4-AC82-507FE3798EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BF3A40-46BD-4F26-94BB-FF1940C788EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BF3A40-46BD-4F26-94BB-FF1940C788EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BF3A40-46BD-4F26-94BB-FF1940C788EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BF3A40-46BD-4F26-94BB-FF1940C788EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BC50DA4-57A7-430A-BF63-060FDEA62BE5} = {DE2A718C-C6D4-4128-B4EC-955F3BB12A98}
+		{414A4BE0-3A32-401A-9812-A5A2AD42E55B} = {5F056608-4442-4771-A954-8FAC751902C0}
+		{E74E84D7-62F8-401D-8CEE-5AFAF42C3771} = {EA4C2E20-B0F7-4E66-BA63-92084B4646F0}
+		{237ED354-C209-41FC-AB28-037B68DC7A24} = {8DC41C9B-ABB1-45BF-969F-46EC07C9483D}
+		{C34A2563-8175-40F4-AC82-507FE3798EBD} = {8DC41C9B-ABB1-45BF-969F-46EC07C9483D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {220CC14E-173C-4152-958F-80643D877AD7}
+	EndGlobalSection
+EndGlobal
